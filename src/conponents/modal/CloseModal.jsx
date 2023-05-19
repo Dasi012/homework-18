@@ -41,6 +41,8 @@ const OpenModal = styled.button`
   color: #fff;
   border: none;
   margin-left: 1100px;
+  margin-top: 50px;
+  font-weight: 600;
 `;
 const Button = styled.button`
   width: 100px;
@@ -49,4 +51,6 @@ const Button = styled.button`
   background-color: green;
   border: none;
   margin-left: 10px;
+  font-weight: 700;
+
 `;

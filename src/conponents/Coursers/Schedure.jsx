@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 const Schedure = () => {
   return (
     <Contain>
-      <h1>Go To Notification Page</h1>
+      <h1> Schedure Page</h1>
       <button>Go To Student Page</button>
     </Contain>
   );
@@ -22,12 +22,12 @@ const Contain = styled.div`
   height: 450px;
   background-color: aqua;
 
-
   button {
     width: 150px;
     height: 30px;
     background-color: greenyellow;
     border-radius: 20px;
-    margin-left: 600px;
+    margin-left: 540px;
+    margin-top: 20px;
   }
 `;

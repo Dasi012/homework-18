@@ -24,7 +24,7 @@ export const Students = () => {
             <Container>
               <MiniContainer>
                 <h1>{el.title}</h1>
-                <Link to={`${el.id}`}>
+                <Link to={`${el.id}/detail`}>
                   <Button>{el.button}</Button>
                 </Link>
               </MiniContainer>
@@ -46,8 +46,8 @@ const MiniContainer = styled.div`
   background-color: #fff;
   box-shadow: -8px 15px 21px 12px rgba(34, 60, 80, 0.2);
   margin: auto;
-  margin-right: 1px;
-
+  margin-right: 60px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -59,4 +59,5 @@ const Button = styled.button`
   border-radius: 12px;
   background-color: green;
   border: none;
+  font-weight: 600;
 `;

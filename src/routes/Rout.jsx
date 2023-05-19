@@ -11,6 +11,7 @@ import { Late } from "../conponents/material/Late";
 import Anouncement from "../conponents/Coursers/Anouncement";
 import Notification from "../conponents/Coursers/Notification";
 import Schedure from "../conponents/Coursers/Schedure";
+import GitInstall from "../conponents/Coursers/GitInstall";
 
 export const Rout = () => {
   return (
@@ -25,6 +26,8 @@ export const Rout = () => {
             <Route path="late" element={<Late />} />
           </Route>
           <Route path="/courses/student" element={<Students />} />
+          <Route path="/courses/student/:id/detail" element={<GitInstall />} />
+
           <Route path="/courses/rating" element={<Retting />} />
         </Route>
         <Route path="/anouncements" element={<Anouncement />} />

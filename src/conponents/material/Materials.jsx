@@ -18,7 +18,7 @@ export const Materials = () => {
   return (
     <>
       <CloseModal />
-      
+
       {material.map((el) => {
         return (
           <Container>
@@ -44,7 +44,7 @@ const MiniContainer = styled.div`
   background-color: #fff;
   box-shadow: -8px 15px 21px 12px rgba(34, 60, 80, 0.2);
   margin: auto;
-  margin-right: 1px;
+  margin-right: 60px;
 
   display: flex;
   align-items: center;
@@ -57,4 +57,5 @@ const Button = styled.button`
   border-radius: 12px;
   background-color: green;
   border: none;
+  font-weight: 600;
 `;
